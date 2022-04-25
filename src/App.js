@@ -10,7 +10,8 @@ function App() {
         playsInline 
         controls
         id="bg-video">
-            <source src="https://dashboard.hithere.co.nz/lunasky.mp4" type="video/mp4"/>
+            <source src="https://dashboard.hithere.co.nz/lunaskymp.mp4" type="video/mp4"/>
+            <source src="https://dashboard.hithere.co.nz/lunaskyWeb.webm" type="video/webm"/>
       </video>
     </div>
   );
