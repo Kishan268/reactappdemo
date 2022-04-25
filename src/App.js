@@ -1,12 +1,13 @@
 import ReactPlayer from 'react-player'
-
+import './App.css'
 function App() {
   return (
     <div className="App">
       
-         <video 
-          playsInline 
+         <video
+          className='video' 
           loop 
+          playsInline 
           muted 
           autoPlay 
           preload="false"
