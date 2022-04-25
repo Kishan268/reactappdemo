@@ -1,7 +1,5 @@
 import logo from './logo.svg';
 
-import { Player } from 'video-react';
-
 function App() {
   return (
     <div className="App">
