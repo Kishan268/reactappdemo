@@ -11,7 +11,7 @@ function App() {
           muted 
           autoPlay 
           playsInline
-          preload="false"
+          preload="none"
           tabIndex="0"
           style={{height:'100%', width:'100%'}}
          >
