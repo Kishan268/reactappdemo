@@ -8,9 +8,9 @@ function App() {
           src={'https://evergrowcoin.com/wp-content/uploads/2022/04/coming-soon-lunasky.mp4'}
           className='video' 
           loop 
-          playsInline 
           muted 
           autoPlay 
+          playsInline
           preload="false"
           tabIndex="0"
           style={{height:'100%', width:'100%'}}
