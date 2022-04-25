@@ -3,12 +3,18 @@ import ReactPlayer from 'react-player'
 function App() {
   return (
     <div className="App">
-         {/* <video playsInline loop muted autoPlay 
+         <video 
+          playsinline 
+          loop 
+          muted 
+          autoPlay 
+          preload={false}
+          tabindex={0}
           style={{height:'100%', width:'100%'}}
          >
           <source  src='https://evergrowcoin.com/wp-content/uploads/2022/04/coming-soon-lunasky.mp4' type="video/mp4" />
-        </video> */}
-        <ReactPlayer
+        </video>
+        {/* <ReactPlayer
             url="https://evergrowcoin.com/wp-content/uploads/2022/04/coming-soon-lunasky.mp4"
             width="100%"
             height="100%"
@@ -23,7 +29,7 @@ function App() {
                 },
               },
             }}
-          />
+          /> */}
 
     </div>
   );
