@@ -9,11 +9,8 @@ function App() {
         loop 
         playsInline 
         controls
-        src='https://evergrowcoin.com/wp-content/uploads/2022/04/Lunasky.mp4'
         id="bg-video">
-          <source src="https://evergrowcoin.com/wp-content/uploads/2022/04/Lunasky.mp4" type="video/mp4"/>
-          <source src="https://evergrowcoin.com/wp-content/uploads/2022/04/Lunasky.webm" type="video/webm"/>
-
+            <source src="https://evergrowcoin.com/wp-content/uploads/2022/04/Lunasky.mp4" type="video/mp4"/>
       </video>
     </div>
   );
