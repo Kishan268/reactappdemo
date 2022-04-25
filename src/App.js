@@ -8,6 +8,7 @@ function App() {
         autoPlay 
         loop 
         playsInline 
+        muted
         id="bg-video">
             <source src="http://dashboard.hithere.co.nz/lunasky.mp4" type="video/mp4"/>
       </video>
