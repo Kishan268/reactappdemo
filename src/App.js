@@ -15,8 +15,7 @@ function App() {
           tabIndex="0"
           style={{height:'100%', width:'100%'}}
          >
-          <source src="https://evergrowcoin.com/wp-content/uploads/2022/04/coming-soon-lunasky.mp4" type="video/mp4"/>
-          <source src="https://evergrowcoin.com/wp-content/uploads/2022/04/coming-soon-lunasky.webm" type="video/webm"/>
+        
         </video>
         {/* <ReactPlayer
             url="https://evergrowcoin.com/wp-content/uploads/2022/04/coming-soon-lunasky.mp4"
