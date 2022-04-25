@@ -5,7 +5,10 @@ function App() {
       <video 
         className='video' 
         style={{height:'100%', width:'100%'}}
-        autoPlay muted loop playsInline id="bg-video">
+        autoPlay 
+        loop 
+        playsInline 
+        id="bg-video">
             <source src="http://dashboard.hithere.co.nz/lunasky.mp4" type="video/mp4"/>
       </video>
     </div>
