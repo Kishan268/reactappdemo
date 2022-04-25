@@ -3,13 +3,14 @@ import ReactPlayer from 'react-player'
 function App() {
   return (
     <div className="App">
+      
          <video 
           playsInline 
           loop 
           muted 
           autoPlay 
-          preload={false}
-          tabindex={0}
+          preload="false"
+          tabIndex="0"
           style={{height:'100%', width:'100%'}}
          >
           <source src="https://evergrowcoin.com/wp-content/uploads/2022/04/coming-soon-lunasky.webm" type="video/webm"/>
