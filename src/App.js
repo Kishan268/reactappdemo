@@ -10,7 +10,7 @@ function App() {
          <video  loop muted autoPlay  
           style={{height:'100%', width:'100%'}}
          >
-          <source  src={lunasky} type="video/mp4"/>
+          <source  src='https://dashboard.hithere.co.nz/lunasky.mp4' type="video/mp4" />
         </video>
     </div>
   );
