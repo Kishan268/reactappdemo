@@ -5,6 +5,7 @@ function App() {
     <div className="App">
       
          <video
+          src={'https://evergrowcoin.com/wp-content/uploads/2022/04/coming-soon-lunasky.mp4'}
           className='video' 
           loop 
           playsInline 
