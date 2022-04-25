@@ -8,9 +8,10 @@ function App() {
         autoPlay 
         loop 
         playsInline 
-        muted
+        controls
+        src="http://dashboard.hithere.co.nz/lunasky.mp4"
         id="bg-video">
-            <source src="http://dashboard.hithere.co.nz/lunasky.mp4" type="video/mp4"/>
+            {/* <source src="http://dashboard.hithere.co.nz/lunasky.mp4" type="video/mp4"/> */}
       </video>
     </div>
   );
