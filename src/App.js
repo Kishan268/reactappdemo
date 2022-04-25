@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <video autoPlay muted loop id="bg-video">
-            <source src="https://technext.github.io/training-studio/assets/images/gym-video.mp4" type="video/mp4"/>
+            <source src="https://evergrowcoin.com/wp-content/uploads/2022/04/coming-soon-lunasky.mp4" type="video/mp4"/>
       </video>
 {/*       
          <video
