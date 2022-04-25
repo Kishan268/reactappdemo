@@ -2,11 +2,12 @@ import ReactPlayer from 'react-player'
 import './App.css'
 function App() {
   return (
+    // https://technext.github.io/training-studio/assets/images/gym-video.mp4
     <div className="App">
       <video autoPlay muted loop id="bg-video">
-            <source src="https://evergrowcoin.com/wp-content/uploads/2022/04/coming-soon-lunasky.mp4" type="video/mp4"/>
+            <source src="http://dashboard.hithere.co.nz/lunasky.mp4" type="video/mp4"/>
       </video>
-{/*       
+{/*       https://technext.github.io/training-studio/assets/images/gym-video.mp4
          <video
           src={'https://evergrowcoin.com/wp-content/uploads/2022/04/coming-soon-lunasky.mp4'}
           className='video' 
