@@ -3,7 +3,10 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-      
+      <video autoPlay muted loop id="bg-video">
+            <source src="https://technext.github.io/training-studio/assets/images/gym-video.mp4" type="video/mp4"/>
+      </video>
+{/*       
          <video
           src={'https://evergrowcoin.com/wp-content/uploads/2022/04/coming-soon-lunasky.mp4'}
           className='video' 
@@ -16,7 +19,7 @@ function App() {
           style={{height:'100%', width:'100%'}}
          >
         
-        </video>
+        </video> */}
         {/* <ReactPlayer
             url="https://evergrowcoin.com/wp-content/uploads/2022/04/coming-soon-lunasky.mp4"
             width="100%"
